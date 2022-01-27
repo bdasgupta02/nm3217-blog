@@ -1,5 +1,5 @@
 import React from 'react'
-import { Box, Container, Grid } from '@mui/material'
+import { Box, Container } from '@mui/material'
 import './pageWrapper.css'
 
 
@@ -26,7 +26,7 @@ const defaultProps: Props = {
 }
 
 const PageWrapper = (props: Props) => {
-    const { title, subtitle, children } = { ...defaultProps, ...props }
+    const { title, children } = { ...defaultProps, ...props }
 
     return (
         <div id="PWOuter">
