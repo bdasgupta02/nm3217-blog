@@ -159,7 +159,7 @@ function Assignment1() {
             </StickyBox>
             <div style={{ height: 30, width: 1 }} />
 
-            <StickyBox topic="Stage 5: symbol" image={a1stage5}>
+            <StickyBox topic="Stage 5: symbols symbols symbols" image={a1stage5}>
                 <Normal>{stage51}</Normal>
                 <ParaBreak />
                 <img style={{ width: '100%' }} src={a1stage51} alt="Img" />
