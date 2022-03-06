@@ -188,7 +188,7 @@ function Assignment1() {
             <div style={{ height: 50, width: 1 }} />
             <Normal style={{ color: '#9c9c9c' }}>
                 {
-                    "Note: I coded this blog from scratch for some extra functionality and nice looks, if it's buggy or looks incomplete due to some technical issues please let me know at bikramjit@u.nus.edu 😅"
+                    "Note: I coded this blog from scratch for some extra functionality and the looks I wanted, if it's buggy or looks incomplete due to some technical issues please let me know at bikramjit@u.nus.edu 😅"
                 }
             </Normal>
         </PageWrapper>
