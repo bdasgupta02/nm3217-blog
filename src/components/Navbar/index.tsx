@@ -21,6 +21,7 @@ import { useTheme } from '@mui/material/styles';
 import { useSpring, animated, config } from 'react-spring';
 import Text from '../Text';
 import './navbar.css';
+import { useNavigate } from 'react-router-dom';
 
 /**
  * - Made under the assumption that navbar is there on all pages
@@ -40,6 +41,10 @@ const DivIconvWrapper = (props: any) => (
 function Navbar(props: object) {
     const [anchorEl, setAnchorEl] = React.useState<null | HTMLElement>(null);
     const open = Boolean(anchorEl);
+    const navigate = useNavigate();
+    const goToPage = (page: string) => {
+        navigate(page);
+    };
 
     const [isCollapsed, setIsCollapsed] = useState(
         LocalStorageKeys.NAVBAR_COLLAPSED in localStorage
@@ -165,13 +170,13 @@ function Navbar(props: object) {
                     }}>
                     {/* Edit here for mobile navbar */}
 
-                    <MenuItem onClick={handleClose}>
+                    <MenuItem onClick={() => navigate('/')}>
                         <HomeIcon size={12} />
                         &nbsp;&nbsp;Home
                     </MenuItem>
 
                     <Divider />
-                    <MenuItem onClick={handleClose}>
+                    <MenuItem onClick={() => navigate('/assignment/1')}>
                         <ThreeBarsIcon size={12} />
                         &nbsp;&nbsp;Assignment 1
                     </MenuItem>
