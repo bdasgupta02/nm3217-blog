@@ -15,16 +15,26 @@ function Tile({
 }) {
     const [hovering, setHovering] = useState<boolean>(false);
 
-    const shadowAnim = useSpring(hovering ? {
-        boxShadow: '5px 8px 20px #c2c2c252'
-    } : {
-        boxShadow: '0px 0px 0px #c2c2c252'
-    })
+    const shadowAnim = useSpring(
+        hovering
+            ? {
+                  boxShadow: '5px 8px 20px #c2c2c252',
+              }
+            : {
+                  boxShadow: '0px 0px 0px #c2c2c252',
+              },
+    );
 
     return (
         <animated.div
             onClick={() => onClick()}
-            style={{ backgroundColor: 'white', padding: '20px', marginTop: '10px', ...shadowAnim }}
+            style={{
+                backgroundColor: 'white',
+                padding: '20px',
+                marginTop: '10px',
+                cursor: 'pointer',
+                ...shadowAnim,
+            }}
             onMouseOver={() => setHovering(true)}
             onMouseOut={() => setHovering(false)}>
             <Normal style={{ fontWeight: 'bold' }}>{title}</Normal>

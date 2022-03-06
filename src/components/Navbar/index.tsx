@@ -110,8 +110,8 @@ function Navbar(props: object) {
                         <div style={{ position: 'absolute', width: 150 }}>
                             <div style={{ fontSize: '18px' }}>The technical designer.</div>
                             <div style={{ height: 20, width: 1 }} />
-                            <div style={{ fontSize: '14px' }}>Bikramjit Dasgupta</div>
-                            <div style={{ fontSize: '14px', color: '#B3B3B3' }}>NM3217 Blog</div>
+                            <div style={{ fontSize: '12px' }}>Bikramjit Dasgupta</div>
+                            <div style={{ fontSize: '10px', color: '#B3B3B3' }}>NM3217 Blog</div>
                         </div>
                     </animated.div>
                 )}

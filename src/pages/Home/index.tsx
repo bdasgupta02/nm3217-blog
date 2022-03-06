@@ -12,7 +12,7 @@ function Home() {
 
     return (
         <PageWrapper>
-            <Heading>The Technical Designer</Heading>
+            <Heading>The technical designer.</Heading>
             <Normal style={{ fontSize: 16, color: '#9c9c9c' }}>My blog for NM3217</Normal>
             <div style={{ height: 100, width: 1 }} />
 
