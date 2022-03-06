@@ -22,6 +22,11 @@ import {
     stage41,
     stage42,
     stage43,
+    stage51,
+    stage52,
+    stage53,
+    stage54,
+    stage5c,
 } from './texts';
 
 // Images
@@ -44,6 +49,9 @@ import a1stage31 from '../../assets/a1-stage3-1-symmetry.png';
 import a1stage32 from '../../assets/a1-stage3-2-lines.png';
 
 import a1stage41 from '../../assets/a1-stage4-symmetry.png';
+
+import a1stage5fib from '../../assets/a1-stage5-2-fib.png';
+import a1stage5c from '../../assets/a1-stage5-critique.png';
 
 
 const ParaBreak = () => {
@@ -151,7 +159,26 @@ function Assignment1() {
             <div style={{ height: 30, width: 1 }} />
 
             <StickyBox topic="Stage 5: symbol" image={a1stage5}>
-                <Normal>{'In progress'}</Normal>
+                <Normal>{stage51}</Normal>
+                <ParaBreak />
+                <Normal>{stage52}</Normal>
+                <ParaBreak />
+                <Normal>{stage53}</Normal>
+                <ParaBreak />
+                <Normal>{stage54}</Normal>
+                <ParaBreak />
+                <img style={{ width: '100%' }} src={a1stage5fib} alt="Img" />
+                <Normal style={{ fontStyle: 'italic', color: '#9c9c9c', textAlign: 'center' }}>
+                    Fibonacci ratio of the ribbon
+                </Normal>
+                <ParaBreak />
+                <ParaBreak />
+                <Normal>{stage5c}</Normal>
+                <ParaBreak />
+                <img style={{ width: '100%' }} src={a1stage5c} alt="Img" />
+                <Normal style={{ fontStyle: 'italic', color: '#9c9c9c', textAlign: 'center' }}>
+                    Old symbol (left) and revised symbol (right)
+                </Normal>
             </StickyBox>
 
             <StickyBox topic="What I learnt" image={''}>
@@ -161,7 +188,7 @@ function Assignment1() {
             <div style={{ height: 50, width: 1 }} />
             <Normal style={{ color: '#9c9c9c' }}>
                 {
-                    "Note: I coded this blog for some extra functionality, if it's buggy or looks incomplete due to some technical issues please let me know at bikramjit@u.nus.edu 😅"
+                    "Note: I coded this blog from scratch for some extra functionality and nice looks, if it's buggy or looks incomplete due to some technical issues please let me know at bikramjit@u.nus.edu 😅"
                 }
             </Normal>
         </PageWrapper>
