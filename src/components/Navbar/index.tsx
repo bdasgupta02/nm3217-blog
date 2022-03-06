@@ -170,13 +170,13 @@ function Navbar(props: object) {
                     }}>
                     {/* Edit here for mobile navbar */}
 
-                    <MenuItem onClick={() => navigate('/')}>
+                    <MenuItem onClick={() => goToPage('/')}>
                         <HomeIcon size={12} />
                         &nbsp;&nbsp;Home
                     </MenuItem>
 
                     <Divider />
-                    <MenuItem onClick={() => navigate('/assignment/1')}>
+                    <MenuItem onClick={() => goToPage('/assignment/1')}>
                         <ThreeBarsIcon size={12} />
                         &nbsp;&nbsp;Assignment 1
                     </MenuItem>
