@@ -30,7 +30,7 @@ const PageWrapper = (props: Props) => {
 
     return (
         <div id="PWOuter">
-            <Container maxWidth="lg">
+            <Container maxWidth="md">
                 <Box minHeight="100vh" sx={{ paddingTop: '100px', paddingBottom: '100px' }}>
                     <div style={{ width: '100%' }}>
                         <div>{title}</div>

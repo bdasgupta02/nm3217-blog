@@ -19,12 +19,12 @@ body {
 }
 
 ::-webkit-scrollbar-thumb {
-  background: #e9ae9e;
+  background: #c2c2c2;
   border-radius: 10px;
 }
 
 ::-webkit-scrollbar-thumb:hover {
-  background: #db7c62;
+  background: #8f8f8f;
 }
 
 ::-webkit-scrollbar:horizontal{

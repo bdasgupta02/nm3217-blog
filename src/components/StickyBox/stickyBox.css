@@ -1,0 +1,11 @@
+.SBSticky {
+    position: -webkit-sticky;
+    position: sticky;
+    top: 10px;
+    display: flex;
+    flex-direction: row;
+    background-color: white;
+    padding: 20px;
+    align-items: center;
+    margin-bottom: 20px;
+}
