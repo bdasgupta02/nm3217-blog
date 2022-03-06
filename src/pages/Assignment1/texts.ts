@@ -17,10 +17,12 @@ export const stage32 = "In the first step of making the bag symmetric, I inserte
 export const stage33 = "However, I realized that the insides were highly asymmetric due to the leaning lines and creases that the bag had, as well as the asymmetric opening of the lid in stage 2. To combat this issue, I replaced significant amount of shading from the right side to match with the left side, and added some more synthetic lines instead of realistic ones, to converge at some level of graphical reduction in terms of the fidelity of the shapes.";
 
 export const stage41 = "The good thing about this stage was that the previous stage solidified an approach towards some kind of flat symbol, so I knew exactly what to do at this point. The first thing I did was reducing shades significantly to form more clearer lines - to a higher extent than the previous stage. This further meant removing any organic shapes from the image of the bag to abide by a more flat design language. ";
-export const stage42 = "";
+export const stage42 = "The symmetry of the figure was further taken to an extreme, making the canvas perfectly symmetric with the exception of the ribbon and the tag at the bottom right. I kept the ribbon in this stage for identification of the bag but tried to make it a bit more geometric to abide by the symmetric and flat design language.";
+export const stage43 = "Other changes at this stage were the removal of all the buckles because their high-fidelity look contradicted the low-fidelity design language of this stage.";
 
 
-export const conclusion = "Through this assignment as well as the critique sessions, I learnt a lot about how to extract an idea from a subject using a graphical medium. Being an oil painter with experience in abstraction through a visual medium, it was particularly hard for me to achieve the last stage as previously with my paintings it was more about the diversity of interpretations a work of art can have - while in graphic design the perceived idea has to be common across all viewers as a form of truth.";
+
+export const conclusion = "Through this assignment as well as the critique sessions, I learnt a lot about how to extract an idea from a subject using a graphical medium. Being an oil painter with experience in abstraction through my paintings, it was particularly hard for me to achieve the last stage as previously with my paintings it was more about the diversity of interpretations a work of art can have - while in graphic design the perceived idea has to be common across all viewers as a form of truth.";
 
 
 

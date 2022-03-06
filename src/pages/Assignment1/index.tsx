@@ -20,6 +20,8 @@ import {
     stage32,
     stage33,
     stage41,
+    stage42,
+    stage43,
 } from './texts';
 
 // Images
@@ -40,6 +42,9 @@ import a1stage2c from '../../assets/a1-stage2-critique.png';
 
 import a1stage31 from '../../assets/a1-stage3-1-symmetry.png';
 import a1stage32 from '../../assets/a1-stage3-2-lines.png';
+
+import a1stage41 from '../../assets/a1-stage4-symmetry.png';
+
 
 const ParaBreak = () => {
     return <div style={{ height: '20px', width: '1px' }} />;
@@ -133,6 +138,15 @@ function Assignment1() {
 
             <StickyBox topic="Stage 4: simplification" image={a1stage4}>
                 <Normal>{stage41}</Normal>
+                <ParaBreak />
+                <img style={{ width: '100%' }} src={a1stage41} alt="Img" />
+                <Normal style={{ fontStyle: 'italic', color: '#9c9c9c', textAlign: 'center' }}>
+                    Taking symmetry further
+                </Normal>
+                <ParaBreak />
+                <ParaBreak />
+                <Normal>{stage42}</Normal>
+                <Normal>{stage43}</Normal>
             </StickyBox>
             <div style={{ height: 30, width: 1 }} />
 

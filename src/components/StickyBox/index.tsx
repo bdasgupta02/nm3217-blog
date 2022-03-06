@@ -10,7 +10,7 @@ function StickyBox({ topic, image, children }: { topic: string; image: string; c
 
     return (
         <div style={{ width: '100%', marginTop: '20px' }}>
-            <div className="SBSticky" style={{ top: isDesktop ? '5px' : '70px' }}>
+            <div className="SBSticky" style={{ top: isDesktop ? '10px' : '70px' }}>
                 <Normal style={{ flex: 1, fontWeight: 'bold' }}>{topic}</Normal>
                 {image !== '' && (
                     <img
