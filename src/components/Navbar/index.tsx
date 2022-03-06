@@ -41,10 +41,7 @@ const DivIconvWrapper = (props: any) => (
 function Navbar(props: object) {
     const [anchorEl, setAnchorEl] = React.useState<null | HTMLElement>(null);
     const open = Boolean(anchorEl);
-    const navigate = useNavigate();
-    const goToPage = (page: string) => {
-        navigate(page);
-    };
+    
 
     const [isCollapsed, setIsCollapsed] = useState(
         LocalStorageKeys.NAVBAR_COLLAPSED in localStorage
@@ -81,6 +78,12 @@ function Navbar(props: object) {
 
     const handleClose = () => {
         setAnchorEl(null);
+    };
+
+    const navigate = useNavigate();
+    const goToPage = (page: string) => {
+        handleClose();
+        navigate(page);
     };
 
     const theme = useTheme();
