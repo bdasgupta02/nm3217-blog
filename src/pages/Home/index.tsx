@@ -16,7 +16,7 @@ function Home() {
             <Normal style={{ fontSize: 16, color: '#9c9c9c' }}>My blog for NM3217</Normal>
             <div style={{ height: 100, width: 1 }} />
 
-            <Normal style={{ fontWeight: 'bold' }}>Assignments</Normal>
+            <Normal style={{ fontWeight: 'bold', fontSize: '20px' }}>Assignments</Normal>
             <Tile
                 title={'Assignment 1'}
                 subtitle="Stripping Down!"
