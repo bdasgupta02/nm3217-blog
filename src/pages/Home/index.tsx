@@ -20,7 +20,7 @@ function Home() {
             <Tile
                 title={'Assignment 1'}
                 subtitle="Stripping Down!"
-                date="6 Match 2022"
+                date="6 March 2022"
                 onClick={() => goToPage('/assignment/1')}
             />
         </PageWrapper>
