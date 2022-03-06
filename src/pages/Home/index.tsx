@@ -12,7 +12,8 @@ function Home() {
 
     return (
         <PageWrapper>
-            <Heading>Welcome to my blog for NM3217!</Heading>
+            <Heading>The Technical Designer</Heading>
+            <Normal style={{ fontSize: 16, color: '#9c9c9c' }}>My blog for NM3217</Normal>
             <div style={{ height: 100, width: 1 }} />
 
             <Normal style={{ fontWeight: 'bold' }}>Assignments</Normal>

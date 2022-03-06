@@ -50,6 +50,7 @@ import a1stage32 from '../../assets/a1-stage3-2-lines.png';
 
 import a1stage41 from '../../assets/a1-stage4-symmetry.png';
 
+import a1stage51 from '../../assets/a1-stage5-1-progress.png';
 import a1stage5fib from '../../assets/a1-stage5-2-fib.png';
 import a1stage5c from '../../assets/a1-stage5-critique.png';
 
@@ -160,6 +161,12 @@ function Assignment1() {
 
             <StickyBox topic="Stage 5: symbol" image={a1stage5}>
                 <Normal>{stage51}</Normal>
+                <ParaBreak />
+                <img style={{ width: '100%' }} src={a1stage51} alt="Img" />
+                <Normal style={{ fontStyle: 'italic', color: '#9c9c9c', textAlign: 'center' }}>
+                    Arriving at stage 5
+                </Normal>
+                <ParaBreak />
                 <ParaBreak />
                 <Normal>{stage52}</Normal>
                 <ParaBreak />
