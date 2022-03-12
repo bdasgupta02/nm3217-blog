@@ -176,6 +176,8 @@ function Assignment2() {
                     caption={'New copy of images 4 and 5 shot in f/6 - f/8 with less blur'}
                 />
                 <Normal>{critique3}</Normal>
+                <ParaBreak />
+                <ParaBreak />
             </StickyBox>
 
             <StickyBox topic="Learning points">
@@ -200,7 +202,9 @@ function Assignment2() {
                 <ParaBreak />
                 <ParaBreak />
                 <Normal style={{ fontStyle: 'italic', color: '#9c9c9c' }}>
-                    {"This assignment actually surprised me - it was quite a fun and eye-opening experience!"}
+                    {
+                        'This assignment actually surprised me - it was quite a fun and eye-opening experience!'
+                    }
                 </Normal>
             </StickyBox>
         </PageWrapper>
