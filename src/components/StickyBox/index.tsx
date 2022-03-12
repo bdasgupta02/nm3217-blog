@@ -4,14 +4,14 @@ import { useMediaQuery } from '@mui/material';
 import { useTheme } from '@mui/material/styles';
 import './stickyBox.css';
 
-function StickyBox({ topic, image, children }: { topic: string; image: string; children: any }) {
+function StickyBox({ topic, image = '', children }: { topic: string; image?: string; children: any }) {
     const theme = useTheme();
     const isDesktop = useMediaQuery(theme.breakpoints.up('sm'));
 
     return (
         <div style={{ width: '100%', marginTop: '20px' }}>
             <div className="SBSticky" style={{ top: isDesktop ? '0px' : '70px' }}>
-                <Normal style={{ flex: 1, fontWeight: 'bold' }}>{topic}</Normal>
+                <Normal style={{ flex: 1, fontWeight: 'bold', fontSize: '19px' }}>{topic}</Normal>
                 {image !== '' && (
                     <img
                         style={{ height: 50, width: 50, backgroundColor: 'white' }}

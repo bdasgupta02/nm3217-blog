@@ -23,6 +23,12 @@ function Home() {
                 date="6 March 2022"
                 onClick={() => goToPage('/assignment/1')}
             />
+            <Tile
+                title={'Assignment 2'}
+                subtitle="Storytime!"
+                date="12 March 2022"
+                onClick={() => goToPage('/assignment/2')}
+            />
         </PageWrapper>
     );
 }

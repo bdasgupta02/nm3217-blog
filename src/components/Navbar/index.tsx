@@ -2,8 +2,8 @@ import React, { useState } from 'react';
 import NavbarButton from './NavbarButton';
 import {
     HomeIcon,
-    TriangleLeftIcon,
-    TriangleRightIcon,
+    ChevronLeftIcon,
+    ChevronRightIcon,
     ThreeBarsIcon,
 } from '@primer/octicons-react';
 import { LocalStorageKeys } from '../Tokens/Constants';
@@ -24,21 +24,16 @@ import './navbar.css';
 import { useNavigate } from 'react-router-dom';
 
 /**
- * - Made under the assumption that navbar is there on all pages
- *   (non-signed in people should have a partial navbar)
- *
- * TODO: (most need auth and db)
- * - add profile picture + name support maybe (experiment)
- * - notification indicator support
- * - redux sign in support
- * - make the logo a navlink
+ * TODO: 
+ * - add profile and about me
+ * - hint with localstorage "needsNavHint" key for hint text
  */
 
 const DivIconvWrapper = (props: any) => (
     <div style={{ transform: 'scale(0.8)', display: 'inline-block' }}>{props.icon}</div>
 );
 
-function Navbar(props: object) {
+function Navbar() {
     const [anchorEl, setAnchorEl] = React.useState<null | HTMLElement>(null);
     const open = Boolean(anchorEl);
     
@@ -124,9 +119,9 @@ function Navbar(props: object) {
                         onClick={toggleCollapsed}>
                         <div className="NBCollapseButtonInner">
                             {isCollapsed ? (
-                                <TriangleRightIcon size={20} />
+                                <ChevronRightIcon size={20} />
                             ) : (
-                                <TriangleLeftIcon size={20} />
+                                <ChevronLeftIcon size={20} />
                             )}
                         </div>
                     </animated.div>
@@ -153,6 +148,14 @@ function Navbar(props: object) {
                     isCollapsed={isCollapsed}
                     isOverride
                     iconOverride={<div style={{ fontSize: 12 }}>A1</div>}
+                />
+                <NavbarButton
+                    icon={<DivIconvWrapper icon={<ThreeBarsIcon size={16} />} />}
+                    text={'Assignment 2'}
+                    to={'/assignment/2'}
+                    isCollapsed={isCollapsed}
+                    isOverride
+                    iconOverride={<div style={{ fontSize: 12 }}>A2</div>}
                 />
             </div>
         </animated.div>
@@ -182,6 +185,10 @@ function Navbar(props: object) {
                     <MenuItem onClick={() => goToPage('/assignment/1')}>
                         <ThreeBarsIcon size={12} />
                         &nbsp;&nbsp;Assignment 1
+                    </MenuItem>
+                    <MenuItem onClick={() => goToPage('/assignment/2')}>
+                        <ThreeBarsIcon size={12} />
+                        &nbsp;&nbsp;Assignment 2
                     </MenuItem>
                 </Menu>
             </Toolbar>

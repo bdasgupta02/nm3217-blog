@@ -30,29 +30,29 @@ import {
 } from './texts';
 
 // Images
-import a1stage0 from '../../assets/a1-stage0.png';
-import a1stage1 from '../../assets/a1-stage1.svg';
-import a1stage2 from '../../assets/a1-stage2.svg';
-import a1stage3 from '../../assets/a1-stage3.svg';
-import a1stage4 from '../../assets/a1-stage4.svg';
-import a1stage5 from '../../assets/a1-stage5.svg';
+import a1stage0 from '../../assets/a1/a1-stage0.png';
+import a1stage1 from '../../assets/a1/a1-stage1.svg';
+import a1stage2 from '../../assets/a1/a1-stage2.svg';
+import a1stage3 from '../../assets/a1/a1-stage3.svg';
+import a1stage4 from '../../assets/a1/a1-stage4.svg';
+import a1stage5 from '../../assets/a1/a1-stage5.svg';
 
-import a1stage01 from '../../assets/a1-stage0-1-extraction.png';
-import a1stage02 from '../../assets/a1-stage1-2-grey.png';
+import a1stage01 from '../../assets/a1/a1-stage0-1-extraction.png';
+import a1stage02 from '../../assets/a1/a1-stage1-2-grey.png';
 
-import a1stage11 from '../../assets/a1-stage1-1-dark.png';
+import a1stage11 from '../../assets/a1/a1-stage1-1-dark.png';
 
-import a1stage21 from '../../assets/a1-stage2-3-removing.png';
-import a1stage2c from '../../assets/a1-stage2-critique.png';
+import a1stage21 from '../../assets/a1/a1-stage2-3-removing.png';
+import a1stage2c from '../../assets/a1/a1-stage2-critique.png';
 
-import a1stage31 from '../../assets/a1-stage3-1-symmetry.png';
-import a1stage32 from '../../assets/a1-stage3-2-lines.png';
+import a1stage31 from '../../assets/a1/a1-stage3-1-symmetry.png';
+import a1stage32 from '../../assets/a1/a1-stage3-2-lines.png';
 
-import a1stage41 from '../../assets/a1-stage4-symmetry.png';
+import a1stage41 from '../../assets/a1/a1-stage4-symmetry.png';
 
-import a1stage51 from '../../assets/a1-stage5-1-progress.png';
-import a1stage5fib from '../../assets/a1-stage5-2-fib.png';
-import a1stage5c from '../../assets/a1-stage5-critique.png';
+import a1stage51 from '../../assets/a1/a1-stage5-1-progress.png';
+import a1stage5fib from '../../assets/a1/a1-stage5-2-fib.png';
+import a1stage5c from '../../assets/a1/a1-stage5-critique.png';
 
 
 const ParaBreak = () => {
