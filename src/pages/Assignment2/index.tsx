@@ -40,15 +40,6 @@ import processimg7 from '../../assets/a2/a2-process-7.png';
 import critiqueimg1 from '../../assets/a2/a2-critique-1.png';
 import critiqueimg2 from '../../assets/a2/a2-critique-2.png';
 
-const Subheading = ({ children }: any) => {
-    return (
-        <div style={{ width: '100%' }}>
-            <Normal style={{ fontWeight: 'bold' }}>{children}</Normal>
-            <ParaBreak />
-        </div>
-    );
-};
-
 const Quote = ({ children, notBold = false }: { children?: any; notBold?: boolean }) => {
     return (
         <Normal
