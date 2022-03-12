@@ -54,7 +54,6 @@ import a1stage51 from '../../assets/a1/a1-stage5-1-progress.png';
 import a1stage5fib from '../../assets/a1/a1-stage5-2-fib.png';
 import a1stage5c from '../../assets/a1/a1-stage5-critique.png';
 
-
 const ParaBreak = () => {
     return <div style={{ height: '20px', width: '1px' }} />;
 };
@@ -76,7 +75,9 @@ function Assignment1() {
                 <ParaBreak />
                 <Normal>{stage02}</Normal>
                 <ParaBreak />
-                <img style={{ width: '100%' }} src={a1stage01} alt="Img" />
+                <a href={a1stage01} target="_blank">
+                    <img style={{ width: '100%' }} src={a1stage01} alt="Img" />
+                </a>
                 <Normal style={{ fontStyle: 'italic', color: '#9c9c9c', textAlign: 'center' }}>
                     Extracting the subject
                 </Normal>
@@ -86,7 +87,9 @@ function Assignment1() {
             <StickyBox topic="Stage 1: as much detail as possible" image={a1stage1}>
                 <Normal>{stage13}</Normal>
                 <ParaBreak />
-                <img style={{ width: '100%' }} src={a1stage02} alt="Img" />
+                <a href={a1stage02} target="_blank">
+                    <img style={{ width: '100%' }} src={a1stage02} alt="Img" />
+                </a>
                 <Normal style={{ fontStyle: 'italic', color: '#9c9c9c', textAlign: 'center' }}>
                     Convering the image to greyscale to make it easier to trace in black and white
                 </Normal>
@@ -94,7 +97,9 @@ function Assignment1() {
                 <ParaBreak />
                 <Normal>{stage11}</Normal>
                 <ParaBreak />
-                <img style={{ width: '100%' }} src={a1stage11} alt="Img" />
+                <a href={a1stage11} target="_blank">
+                    <img style={{ width: '100%' }} src={a1stage11} alt="Img" />
+                </a>
                 <Normal style={{ fontStyle: 'italic', color: '#9c9c9c', textAlign: 'center' }}>
                     Tracing the different shades step by step
                 </Normal>
@@ -107,7 +112,9 @@ function Assignment1() {
             <StickyBox topic="Stage 2: first layer of abstraction" image={a1stage2}>
                 <Normal>{stage21}</Normal>
                 <ParaBreak />
-                <img style={{ width: '100%' }} src={a1stage21} alt="Img" />
+                <a href={a1stage21} target="_blank">
+                    <img style={{ width: '100%' }} src={a1stage21} alt="Img" />
+                </a>
                 <Normal style={{ fontStyle: 'italic', color: '#9c9c9c', textAlign: 'center' }}>
                     Removing details via simplification and shades
                 </Normal>
@@ -117,7 +124,9 @@ function Assignment1() {
                 <ParaBreak />
                 <Normal>{stage23}</Normal>
                 <ParaBreak />
-                <img style={{ width: '100%' }} src={a1stage2c} alt="Img" />
+                <a href={a1stage2c} target="_blank">
+                    <img style={{ width: '100%' }} src={a1stage2c} alt="Img" />
+                </a>
                 <Normal style={{ fontStyle: 'italic', color: '#9c9c9c', textAlign: 'center' }}>
                     Making stage 2 (in middle) closer to stage 3 (right), using the input from
                     critique
@@ -130,7 +139,9 @@ function Assignment1() {
                 <ParaBreak />
                 <Normal>{stage32}</Normal>
                 <ParaBreak />
-                <img style={{ width: '100%' }} src={a1stage31} alt="Img" />
+                <a href={a1stage31} target="_blank">
+                    <img style={{ width: '100%' }} src={a1stage31} alt="Img" />
+                </a>
                 <Normal style={{ fontStyle: 'italic', color: '#9c9c9c', textAlign: 'center' }}>
                     Adding symmetry through a box
                 </Normal>
@@ -138,7 +149,9 @@ function Assignment1() {
                 <ParaBreak />
                 <Normal>{stage33}</Normal>
                 <ParaBreak />
-                <img style={{ width: '100%' }} src={a1stage32} alt="Img" />
+                <a href={a1stage32} target="_blank">
+                    <img style={{ width: '100%' }} src={a1stage32} alt="Img" />
+                </a>
                 <Normal style={{ fontStyle: 'italic', color: '#9c9c9c', textAlign: 'center' }}>
                     Reducing the fidelity of the paths to form clearer lines
                 </Normal>
@@ -148,7 +161,9 @@ function Assignment1() {
             <StickyBox topic="Stage 4: simplification" image={a1stage4}>
                 <Normal>{stage41}</Normal>
                 <ParaBreak />
-                <img style={{ width: '100%' }} src={a1stage41} alt="Img" />
+                <a href={a1stage41} target="_blank">
+                    <img style={{ width: '100%' }} src={a1stage41} alt="Img" />
+                </a>
                 <Normal style={{ fontStyle: 'italic', color: '#9c9c9c', textAlign: 'center' }}>
                     Taking symmetry further
                 </Normal>
@@ -162,7 +177,9 @@ function Assignment1() {
             <StickyBox topic="Stage 5: symbols symbols symbols" image={a1stage5}>
                 <Normal>{stage51}</Normal>
                 <ParaBreak />
-                <img style={{ width: '100%' }} src={a1stage51} alt="Img" />
+                <a href={a1stage51} target="_blank">
+                    <img style={{ width: '100%' }} src={a1stage51} alt="Img" />
+                </a>
                 <Normal style={{ fontStyle: 'italic', color: '#9c9c9c', textAlign: 'center' }}>
                     Arriving at stage 5
                 </Normal>
@@ -174,7 +191,9 @@ function Assignment1() {
                 <ParaBreak />
                 <Normal>{stage54}</Normal>
                 <ParaBreak />
-                <img style={{ width: '100%' }} src={a1stage5fib} alt="Img" />
+                <a href={a1stage5fib} target="_blank">
+                    <img style={{ width: '100%' }} src={a1stage5fib} alt="Img" />
+                </a>
                 <Normal style={{ fontStyle: 'italic', color: '#9c9c9c', textAlign: 'center' }}>
                     Fibonacci ratio of the ribbon
                 </Normal>
@@ -182,7 +201,9 @@ function Assignment1() {
                 <ParaBreak />
                 <Normal>{stage5c}</Normal>
                 <ParaBreak />
-                <img style={{ width: '100%' }} src={a1stage5c} alt="Img" />
+                <a href={a1stage5c} target="_blank">
+                    <img style={{ width: '100%' }} src={a1stage5c} alt="Img" />
+                </a>
                 <Normal style={{ fontStyle: 'italic', color: '#9c9c9c', textAlign: 'center' }}>
                     Old symbol (left) and revised symbol (right)
                 </Normal>

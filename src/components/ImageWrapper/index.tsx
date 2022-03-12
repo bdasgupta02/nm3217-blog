@@ -5,7 +5,9 @@ import ParaBreak from '../ParaBreak';
 function ImageWrapper({ src, caption }: { src: string; caption: string }) {
     return (
         <div style={{ width: '100%' }}>
-            <img style={{ width: '100%' }} src={src} alt="Img" />
+            <a href={src} target="_blank">
+                <img style={{ width: '100%' }} src={src} alt="Img" />
+            </a>
             <Normal style={{ fontStyle: 'italic', color: '#9c9c9c', textAlign: 'center' }}>
                 {caption}
             </Normal>
