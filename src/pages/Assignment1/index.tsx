@@ -75,7 +75,7 @@ function Assignment1() {
                 <ParaBreak />
                 <Normal>{stage02}</Normal>
                 <ParaBreak />
-                <a href={a1stage01} target="_blank">
+                <a href={a1stage01} target="_blank" rel="noreferrer">
                     <img style={{ width: '100%' }} src={a1stage01} alt="Img" />
                 </a>
                 <Normal style={{ fontStyle: 'italic', color: '#9c9c9c', textAlign: 'center' }}>
@@ -87,7 +87,7 @@ function Assignment1() {
             <StickyBox topic="Stage 1: as much detail as possible" image={a1stage1}>
                 <Normal>{stage13}</Normal>
                 <ParaBreak />
-                <a href={a1stage02} target="_blank">
+                <a href={a1stage02} target="_blank" rel="noreferrer">
                     <img style={{ width: '100%' }} src={a1stage02} alt="Img" />
                 </a>
                 <Normal style={{ fontStyle: 'italic', color: '#9c9c9c', textAlign: 'center' }}>
@@ -97,7 +97,7 @@ function Assignment1() {
                 <ParaBreak />
                 <Normal>{stage11}</Normal>
                 <ParaBreak />
-                <a href={a1stage11} target="_blank">
+                <a href={a1stage11} target="_blank" rel="noreferrer">
                     <img style={{ width: '100%' }} src={a1stage11} alt="Img" />
                 </a>
                 <Normal style={{ fontStyle: 'italic', color: '#9c9c9c', textAlign: 'center' }}>
@@ -112,7 +112,7 @@ function Assignment1() {
             <StickyBox topic="Stage 2: first layer of abstraction" image={a1stage2}>
                 <Normal>{stage21}</Normal>
                 <ParaBreak />
-                <a href={a1stage21} target="_blank">
+                <a href={a1stage21} target="_blank" rel="noreferrer">
                     <img style={{ width: '100%' }} src={a1stage21} alt="Img" />
                 </a>
                 <Normal style={{ fontStyle: 'italic', color: '#9c9c9c', textAlign: 'center' }}>
@@ -124,7 +124,7 @@ function Assignment1() {
                 <ParaBreak />
                 <Normal>{stage23}</Normal>
                 <ParaBreak />
-                <a href={a1stage2c} target="_blank">
+                <a href={a1stage2c} target="_blank" rel="noreferrer">
                     <img style={{ width: '100%' }} src={a1stage2c} alt="Img" />
                 </a>
                 <Normal style={{ fontStyle: 'italic', color: '#9c9c9c', textAlign: 'center' }}>
@@ -139,7 +139,7 @@ function Assignment1() {
                 <ParaBreak />
                 <Normal>{stage32}</Normal>
                 <ParaBreak />
-                <a href={a1stage31} target="_blank">
+                <a href={a1stage31} target="_blank" rel="noreferrer">
                     <img style={{ width: '100%' }} src={a1stage31} alt="Img" />
                 </a>
                 <Normal style={{ fontStyle: 'italic', color: '#9c9c9c', textAlign: 'center' }}>
@@ -149,7 +149,7 @@ function Assignment1() {
                 <ParaBreak />
                 <Normal>{stage33}</Normal>
                 <ParaBreak />
-                <a href={a1stage32} target="_blank">
+                <a href={a1stage32} target="_blank" rel="noreferrer">
                     <img style={{ width: '100%' }} src={a1stage32} alt="Img" />
                 </a>
                 <Normal style={{ fontStyle: 'italic', color: '#9c9c9c', textAlign: 'center' }}>
@@ -161,7 +161,7 @@ function Assignment1() {
             <StickyBox topic="Stage 4: simplification" image={a1stage4}>
                 <Normal>{stage41}</Normal>
                 <ParaBreak />
-                <a href={a1stage41} target="_blank">
+                <a href={a1stage41} target="_blank" rel="noreferrer">
                     <img style={{ width: '100%' }} src={a1stage41} alt="Img" />
                 </a>
                 <Normal style={{ fontStyle: 'italic', color: '#9c9c9c', textAlign: 'center' }}>
@@ -177,7 +177,7 @@ function Assignment1() {
             <StickyBox topic="Stage 5: symbols symbols symbols" image={a1stage5}>
                 <Normal>{stage51}</Normal>
                 <ParaBreak />
-                <a href={a1stage51} target="_blank">
+                <a href={a1stage51} target="_blank" rel="noreferrer">
                     <img style={{ width: '100%' }} src={a1stage51} alt="Img" />
                 </a>
                 <Normal style={{ fontStyle: 'italic', color: '#9c9c9c', textAlign: 'center' }}>
@@ -191,7 +191,7 @@ function Assignment1() {
                 <ParaBreak />
                 <Normal>{stage54}</Normal>
                 <ParaBreak />
-                <a href={a1stage5fib} target="_blank">
+                <a href={a1stage5fib} target="_blank" rel="noreferrer">
                     <img style={{ width: '100%' }} src={a1stage5fib} alt="Img" />
                 </a>
                 <Normal style={{ fontStyle: 'italic', color: '#9c9c9c', textAlign: 'center' }}>
@@ -201,7 +201,7 @@ function Assignment1() {
                 <ParaBreak />
                 <Normal>{stage5c}</Normal>
                 <ParaBreak />
-                <a href={a1stage5c} target="_blank">
+                <a href={a1stage5c} target="_blank" rel="noreferrer">
                     <img style={{ width: '100%' }} src={a1stage5c} alt="Img" />
                 </a>
                 <Normal style={{ fontStyle: 'italic', color: '#9c9c9c', textAlign: 'center' }}>
