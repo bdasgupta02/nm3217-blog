@@ -6,6 +6,7 @@ import Navbar from "./components/Navbar";
 import Home from "./pages/Home";
 import Assignment1 from "./pages/Assignment1";
 import Assignment2 from "./pages/Assignment2";
+import Assignment3 from "./pages/Assignment3";
 
 import PageWrapper from "./components/PageWrapper";
 const Placeholder = () => (
@@ -25,7 +26,7 @@ function App() {
           <Route path="/assignments" element={<Placeholder />} />
           <Route path="/assignment/1" element={<Assignment1 />} />
           <Route path="/assignment/2" element={<Assignment2 />} />
-          <Route path="/assignment/3" element={<Placeholder />} />
+          <Route path="/assignment/3" element={<Assignment3 />} />
           <Route path="/lecture_exercises" element={<Placeholder />} />
           <Route path="/lecture_exercise/:id" element={<Placeholder />} />
           <Route path="/final_project" element={<Placeholder />} />

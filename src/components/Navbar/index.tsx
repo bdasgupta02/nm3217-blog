@@ -5,6 +5,9 @@ import {
     ChevronLeftIcon,
     ChevronRightIcon,
     ThreeBarsIcon,
+    ImageIcon,
+    AppsIcon,
+    LogIcon,
 } from '@primer/octicons-react';
 import { LocalStorageKeys } from '../Tokens/Constants';
 import {
@@ -142,7 +145,7 @@ function Navbar() {
                     )}
                 </animated.div>
                 <NavbarButton
-                    icon={<DivIconvWrapper icon={<ThreeBarsIcon size={16} />} />}
+                    icon={<DivIconvWrapper icon={<ImageIcon size={16} />} />}
                     text={'Assignment 1'}
                     to={'/assignment/1'}
                     isCollapsed={isCollapsed}
@@ -150,12 +153,20 @@ function Navbar() {
                     iconOverride={<div style={{ fontSize: 12 }}>A1</div>}
                 />
                 <NavbarButton
-                    icon={<DivIconvWrapper icon={<ThreeBarsIcon size={16} />} />}
+                    icon={<DivIconvWrapper icon={<AppsIcon size={16} />} />}
                     text={'Assignment 2'}
                     to={'/assignment/2'}
                     isCollapsed={isCollapsed}
                     isOverride
                     iconOverride={<div style={{ fontSize: 12 }}>A2</div>}
+                />
+                <NavbarButton
+                    icon={<DivIconvWrapper icon={<LogIcon size={16} />} />}
+                    text={'Assignment 3'}
+                    to={'/assignment/3'}
+                    isCollapsed={isCollapsed}
+                    isOverride
+                    iconOverride={<div style={{ fontSize: 12 }}>A3</div>}
                 />
             </div>
         </animated.div>
@@ -183,12 +194,16 @@ function Navbar() {
 
                     <Divider />
                     <MenuItem onClick={() => goToPage('/assignment/1')}>
-                        <ThreeBarsIcon size={12} />
+                        <ImageIcon size={12} />
                         &nbsp;&nbsp;Assignment 1
                     </MenuItem>
                     <MenuItem onClick={() => goToPage('/assignment/2')}>
-                        <ThreeBarsIcon size={12} />
+                        <AppsIcon size={12} />
                         &nbsp;&nbsp;Assignment 2
+                    </MenuItem>
+                    <MenuItem onClick={() => goToPage('/assignment/3')}>
+                        <LogIcon size={12} />
+                        &nbsp;&nbsp;Assignment 3
                     </MenuItem>
                 </Menu>
             </Toolbar>

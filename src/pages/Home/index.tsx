@@ -29,6 +29,12 @@ function Home() {
                 date="12 March 2022"
                 onClick={() => goToPage('/assignment/2')}
             />
+            <Tile
+                title={'Assignment 3'}
+                subtitle="Information Design"
+                date="20 March 2022"
+                onClick={() => goToPage('/assignment/3')}
+            />
         </PageWrapper>
     );
 }
