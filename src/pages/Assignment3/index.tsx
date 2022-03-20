@@ -24,6 +24,7 @@ import {
     other2,
     refl1,
     refl2,
+    brain5,
 } from './texts';
 import StickyBox from '../../components/StickyBox';
 
@@ -71,7 +72,7 @@ function Assignment3() {
             </ul>
             <ParaBreak />
 
-            <StickyBox topic="Brainstorming"> 
+            <StickyBox topic="Brainstorming">
                 <Normal>{brain1}</Normal>
                 <ParaBreak />
                 <Normal>{brain2}</Normal>
@@ -84,9 +85,13 @@ function Assignment3() {
                 />
                 <Normal>{brain4}</Normal>
                 <ParaBreak />
+                <Normal>{brain5}</Normal>
+                <ParaBreak />
                 <ImageWrapper
                     src={a32}
-                    caption={'Color scheme (with main color palette on the right) - used a later version to show what I had in mind'}
+                    caption={
+                        'Color scheme (with main color palette on the right) - used a later version to show what I had in mind'
+                    }
                 />
                 <ParaBreak />
             </StickyBox>
@@ -96,14 +101,13 @@ function Assignment3() {
                 <ParaBreak />
                 <ImageWrapper
                     src={a33}
-                    caption={'Tracing various assets from hand-drawn sketches (squashed the drawings to adjust the angle)'}
+                    caption={
+                        'Tracing various assets from hand-drawn sketches (squashed the drawings to adjust the angle)'
+                    }
                 />
                 <Normal>{proc2}</Normal>
                 <ParaBreak />
-                <ImageWrapper
-                    src={a34}
-                    caption={'Abstracting assets further'}
-                />
+                <ImageWrapper src={a34} caption={'Abstracting assets further'} />
                 <Normal>{proc3}</Normal>
                 <ParaBreak />
                 <Normal>{proc4}</Normal>
@@ -145,7 +149,9 @@ function Assignment3() {
                 <ParaBreak />
                 <ImageWrapper
                     src={a36}
-                    caption={'Section heading rectangular color changes from orange to blue (new on top, old below)'}
+                    caption={
+                        'Section heading rectangular color changes from orange to blue (new on top, old below)'
+                    }
                 />
                 <Normal>{crit3}</Normal>
                 <ParaBreak />
@@ -153,7 +159,9 @@ function Assignment3() {
                 <ParaBreak />
                 <ImageWrapper
                     src={a37}
-                    caption={'Gestalt grouping of sub-sections with rectangles and adding subtle arrows to the headers'}
+                    caption={
+                        'Gestalt grouping of sub-sections with rectangles and adding subtle arrows to the headers'
+                    }
                 />
                 <Normal>{crit5}</Normal>
                 <ParaBreak />
@@ -171,12 +179,11 @@ function Assignment3() {
                 <ParaBreak />
                 <ImageWrapper
                     src={a310}
-                    caption={'Shaded graph on the left, and original graphs on the middle and right'}
+                    caption={
+                        'Shaded graph on the left, and original graphs on the middle and right'
+                    }
                 />
-                <ImageWrapper
-                    src={a39}
-                    caption={'How the shaded graphs were made'}
-                />
+                <ImageWrapper src={a39} caption={'How the shaded graphs were made'} />
                 <ParaBreak />
             </StickyBox>
 
