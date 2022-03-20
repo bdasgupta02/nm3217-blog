@@ -83,6 +83,7 @@ function Assignment3() {
                     caption={'Sketching different overarching ideas to represent a keyboard'}
                 />
                 <Normal>{brain4}</Normal>
+                <ParaBreak />
                 <ImageWrapper
                     src={a32}
                     caption={'Color scheme (with main color palette on the right)'}
