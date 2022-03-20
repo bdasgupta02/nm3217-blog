@@ -86,7 +86,7 @@ function Assignment3() {
                 <ParaBreak />
                 <ImageWrapper
                     src={a32}
-                    caption={'Color scheme (with main color palette on the right)'}
+                    caption={'Color scheme (with main color palette on the right) - used a later version to show what I had in mind'}
                 />
                 <ParaBreak />
             </StickyBox>
