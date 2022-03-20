@@ -71,7 +71,7 @@ function Assignment3() {
             </ul>
             <ParaBreak />
 
-            <StickyBox topic="Brainstorming">
+            <StickyBox topic="Brainstorming"> 
                 <Normal>{brain1}</Normal>
                 <ParaBreak />
                 <Normal>{brain2}</Normal>
