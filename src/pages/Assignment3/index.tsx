@@ -111,8 +111,6 @@ function Assignment3() {
                 <Normal>{proc3}</Normal>
                 <ParaBreak />
                 <Normal>{proc4}</Normal>
-                <ParaBreak />
-                <Normal>{proc5}</Normal>
                 <ul style={{ lineHeight: '25px' }}>
                     <li>
                         <span style={{ fontWeight: 'bold' }}>Roboto</span>: high-tech, structured,
@@ -135,6 +133,8 @@ function Assignment3() {
                         approachable.
                     </li>
                 </ul>
+                <ParaBreak />
+                <Normal>{proc5}</Normal>
                 <ParaBreak />
             </StickyBox>
 
