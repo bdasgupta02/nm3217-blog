@@ -60,8 +60,8 @@ function Assignment2() {
     return (
         <PageWrapper>
             <Heading>Assignment 2: "Storytime!"</Heading>
-            <div style={{ color: '#9c9c9c' }}>Bikramjit Dasgupta | 12 March 2022</div>
-            <div style={{ height: 150, width: 1 }} />
+            <Normal style={{ color: '#9c9c9c' }}>Bikramjit Dasgupta | 12 March 2022</Normal>
+            <div style={{ height: '150px', width: '1px' }} />
 
             <Normal>{intro1}</Normal>
             <ParaBreak />

@@ -8,6 +8,7 @@ import {
     ImageIcon,
     AppsIcon,
     LogIcon,
+    BookIcon,
 } from '@primer/octicons-react';
 import { LocalStorageKeys } from '../Tokens/Constants';
 import {
@@ -27,7 +28,7 @@ import './navbar.css';
 import { useNavigate } from 'react-router-dom';
 
 /**
- * TODO: 
+ * TODO:
  * - add profile and about me
  * - hint with localstorage "needsNavHint" key for hint text
  */
@@ -39,7 +40,6 @@ const DivIconvWrapper = (props: any) => (
 function Navbar() {
     const [anchorEl, setAnchorEl] = React.useState<null | HTMLElement>(null);
     const open = Boolean(anchorEl);
-    
 
     const [isCollapsed, setIsCollapsed] = useState(
         LocalStorageKeys.NAVBAR_COLLAPSED in localStorage
@@ -167,6 +167,71 @@ function Navbar() {
                     isCollapsed={isCollapsed}
                     isOverride
                     iconOverride={<div style={{ fontSize: 12 }}>A3</div>}
+                />
+                <animated.div className="NBSubtitle" style={subtitleStyle}>
+                    {!isCollapsed && (
+                        <Text
+                            type="Navbar Subtitle"
+                            text="LECTURE EXERCISES"
+                            forceColor="#ABABAB"
+                        />
+                    )}
+                </animated.div>
+                <NavbarButton
+                    icon={<DivIconvWrapper icon={<BookIcon size={16} />} />}
+                    text={'Exercise A'}
+                    to={'/le/1'}
+                    isCollapsed={isCollapsed}
+                    isOverride
+                    iconOverride={<div style={{ fontSize: 12 }}>L1</div>}
+                />
+                <NavbarButton
+                    icon={<DivIconvWrapper icon={<BookIcon size={16} />} />}
+                    text={'Exercise B'}
+                    to={'/le/2'}
+                    isCollapsed={isCollapsed}
+                    isOverride
+                    iconOverride={<div style={{ fontSize: 12 }}>L2</div>}
+                />
+                <NavbarButton
+                    icon={<DivIconvWrapper icon={<BookIcon size={16} />} />}
+                    text={'Exercise C'}
+                    to={'/le/3'}
+                    isCollapsed={isCollapsed}
+                    isOverride
+                    iconOverride={<div style={{ fontSize: 12 }}>L3</div>}
+                />
+                <NavbarButton
+                    icon={<DivIconvWrapper icon={<BookIcon size={16} />} />}
+                    text={'Exercise D'}
+                    to={'/le/4'}
+                    isCollapsed={isCollapsed}
+                    isOverride
+                    iconOverride={<div style={{ fontSize: 12 }}>L4</div>}
+                />
+                <NavbarButton
+                    icon={<DivIconvWrapper icon={<BookIcon size={16} />} />}
+                    text={'Exercise E'}
+                    to={'/le/5'}
+                    isCollapsed={isCollapsed}
+                    isOverride
+                    iconOverride={<div style={{ fontSize: 12 }}>L5</div>}
+                />
+                <NavbarButton
+                    icon={<DivIconvWrapper icon={<BookIcon size={16} />} />}
+                    text={'Exercise F'}
+                    to={'/le/6'}
+                    isCollapsed={isCollapsed}
+                    isOverride
+                    iconOverride={<div style={{ fontSize: 12 }}>L6</div>}
+                />
+                <NavbarButton
+                    icon={<DivIconvWrapper icon={<BookIcon size={16} />} />}
+                    text={'Exercise G'}
+                    to={'/le/7'}
+                    isCollapsed={isCollapsed}
+                    isOverride
+                    iconOverride={<div style={{ fontSize: 12 }}>L7</div>}
                 />
             </div>
         </animated.div>

@@ -1,0 +1,1 @@
+export const g1 = `The pattern I used was a hand-drawn repeating organic convex-concave curve. Originally not knowing where it would go, I kept adding more curves and adding thickness to each one. Surprisingly, eventually it turned into a whole new pattern - where white became the secondary color instead of the primary one.`;

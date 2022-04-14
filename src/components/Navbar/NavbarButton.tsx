@@ -83,7 +83,7 @@ function NavbarButton({
                 }}>
                 {isOverride ? (isCollapsed ? iconOverride : icon) : icon}
                 <animated.div style={textStyle}>
-                    <div style={{ position: 'absolute' }}>
+                    <div>
                         {!isCollapsed && <Text type="Navbar" text={text} isInline />}
                     </div>
                 </animated.div>
