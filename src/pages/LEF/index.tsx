@@ -1,5 +1,4 @@
 import React from 'react';
-import StickyBox from '../../components/StickyBox';
 import ParaBreak from '../../components/ParaBreak';
 import PageWrapper from '../../components/PageWrapper';
 import { Heading, Normal } from '../../components/TextComponents';
@@ -14,7 +13,10 @@ function LEF() {
             <Normal style={{ color: '#9c9c9c' }}>Bikramjit Dasgupta | 6 March 2022</Normal>
             <div style={{ height: '150px', width: '1px' }} />
 
-            <ImageWrapper src={fimg} caption="The picture itself" />
+            <ImageWrapper
+                src={fimg}
+                caption="The picture itself (taken from the inferior side of the RC4 building)"
+            />
             <ImageWrapper src={f2img} caption="Color scheme" />
 
             <ParaBreak />

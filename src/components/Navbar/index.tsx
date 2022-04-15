@@ -9,6 +9,7 @@ import {
     AppsIcon,
     LogIcon,
     BookIcon,
+    PaintbrushIcon,
 } from '@primer/octicons-react';
 import { LocalStorageKeys } from '../Tokens/Constants';
 import {
@@ -137,6 +138,15 @@ function Navbar() {
                     text={'Home'}
                     to={'/'}
                     isCollapsed={isCollapsed}
+                />
+
+                <NavbarButton
+                    icon={<DivIconvWrapper icon={<PaintbrushIcon size={16} />} />}
+                    text={'Final project'}
+                    to={'/final_project'}
+                    isCollapsed={isCollapsed}
+                    isOverride
+                    iconOverride={<div style={{ fontSize: 12 }}>FP</div>}
                 />
 
                 <animated.div className="NBSubtitle" style={subtitleStyle}>

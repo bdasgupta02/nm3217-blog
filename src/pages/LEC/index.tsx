@@ -1,5 +1,4 @@
 import React from 'react';
-import StickyBox from '../../components/StickyBox';
 import ParaBreak from '../../components/ParaBreak';
 import PageWrapper from '../../components/PageWrapper';
 import { Heading, Normal } from '../../components/TextComponents';

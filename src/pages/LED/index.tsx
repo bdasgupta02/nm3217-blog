@@ -28,35 +28,35 @@ function LED() {
             </ul>
             <ParaBreak />
 
-            <StickyBox topic="Tier 1: Tourist">
+            <StickyBox topic="Tier 1: Tourist" image={d1img}>
                 <ImageWrapper src={d1img} caption="First image" />
                 <Normal>{d2}</Normal>
                 <ParaBreak />
                 <ParaBreak />
             </StickyBox>
 
-            <StickyBox topic="Tier 2: Creating a vibe">
+            <StickyBox topic="Tier 2: Creating a vibe" image={d2img}>
                 <ImageWrapper src={d2img} caption="Second image" />
                 <Normal>{d3}</Normal>
                 <ParaBreak />
                 <ParaBreak />
             </StickyBox>
 
-            <StickyBox topic="Tier 3: Textures">
+            <StickyBox topic="Tier 3: Textures" image={d3img}>
                 <ImageWrapper src={d3img} caption="Third image" />
                 <Normal>{d4}</Normal>
                 <ParaBreak />
                 <ParaBreak />
             </StickyBox>
 
-            <StickyBox topic="Tier 4: Emphasis">
+            <StickyBox topic="Tier 4: Emphasis" image={d4img}>
                 <ImageWrapper src={d4img} caption="Fourth image" />
                 <Normal>{d5}</Normal>
                 <ParaBreak />
                 <ParaBreak />
             </StickyBox>
 
-            <StickyBox topic="Tier 5: Balance">
+            <StickyBox topic="Tier 5: Balance" image={d5img}>
                 <ImageWrapper src={d5img} caption="Fifth image" />
                 <Normal>{d6}</Normal>
                 <ParaBreak />
