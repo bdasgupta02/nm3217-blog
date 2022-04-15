@@ -166,6 +166,8 @@ function FinalProject() {
                 <ParaBreak />
                 <Normal>{f19}</Normal>
                 <ParaBreak />
+                <Normal>{'There was also a typo, which is fixed.'}</Normal>
+                <ParaBreak />
             </StickyBox>
 
             <StickyBox topic="Conclusion">
